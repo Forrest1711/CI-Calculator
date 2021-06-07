@@ -17,14 +17,14 @@ class TestCalculatorApp:
     def test_divide(self):
         assert 12 == calculator.divide(144, 12)
 
-    def test_add_neg():
+    def test_add_neg(self):
         assert 3 == calculator.add(12, -9)
 
-    def test_subtract_neg():
+    def test_subtract_neg(self):
         assert 21 == calculator.subtract(12, -9)
 
-    def test_multiply_neg():
+    def test_multiply_neg(self):
         assert -21 == calculator.multiply(-3, 7)
 
-    def test_divide_neg():
+    def test_divide_neg(self):
         assert -5 == calculator.divide(-70, 14)
