@@ -1,4 +1,6 @@
-# Byte-compiled / optimized / DLL files
+calculatorApp
+
+\# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
